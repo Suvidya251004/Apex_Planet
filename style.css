@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #005f73;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #94d2bd;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: #0a9396;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #94d2bd;
+  color: #001219;
+}
+
+.hero {
+  background: url("C:\Users\HP\Downloads\ApexPlanet_Suvidya\images\task1img1.jpg") no-repeat center center/cover;
+  padding: 80px 0;
+  color: rgb(122, 11, 87);
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #94d2bd;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0a9396;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #94d2bd;
+  color: #001219;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.content-section {
+  background: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.content-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.content-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.btn-secondary {
+  background-color: #005f73;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #0a9396;
+  color: white;
+}
+
+footer {
+  background: #001219;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+header {
+  background: #005f73;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul li a {
+  display: inline-block;
+  background-color: #0a9396;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #94d2bd;
+  color: #001219;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery figure {
+  margin: 0;
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery figure:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.gallery figcaption {
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  background: #fafafa;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .gallery .images {
+    flex-direction: column;
+    align-items: center;
+  }
+}
